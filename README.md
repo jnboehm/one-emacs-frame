@@ -5,4 +5,6 @@ This script isn't really smart but gets the job done for me. It checks the exist
 I have changed my emacs title a little bit, it's represented in the frametitle variable.
 
 # Install
-Just copy the shell script and add it to your PATH. Alternatively, you could also create an alias to call it.
+It requires that you have wmctrl installed.
+
+Then just copy the shell script and add it to your PATH. Alternatively, you could also create an alias to call it.
