@@ -11,7 +11,7 @@ runinst=$(wmctrl -l | grep -c $frametitle)
 
 if [ $runinst = 1 ];
   then 
-    exec emacsclient -n $1
+    exec emacsclient -n "$@"
   else 
-    exec emacsclient -n -c $1
+    exec emacsclient -n -c "$@"
 fi
